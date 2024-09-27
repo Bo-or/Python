@@ -1,0 +1,9 @@
+def calc_smpl_int(principle,rate,time):
+    rate=rate/100
+    simple_intrest=principle*rate*time
+    return simple_intrest
+principle=5
+time=3
+rate=5
+si=calc_smpl_int(principle,rate,time)
+print("Simple interest = ",si)
