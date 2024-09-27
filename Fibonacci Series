@@ -1,0 +1,10 @@
+num1=0
+num2=1
+count=0
+n=int(input("Enter the length: "))
+print(num1,num2,end=" ")
+while n>=count:
+    digit=num1+num2
+    print(digit,end=" ")
+    num1,num2=num2,digit
+    count+=1
