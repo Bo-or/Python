@@ -1,0 +1,13 @@
+def ialp(s=input()):
+    c1=0
+    c2=0
+    l1=['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m']
+    l2=['Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M']
+    for i in s:
+        if i in l1:
+            c1+=1
+        elif i in l2:
+            c2+=1
+    print("Number of lowercases:",c1)
+    print("Number of uppercases:",c2)
+ialp() 
