@@ -1,0 +1,13 @@
+t=(1,2,3)
+t2=(4,5,6)
+print(len(t)) #length
+t3=t+t2
+print(t3) #concatenation
+print(t*3) #repetition
+for i in t:
+    print(i,end="") #iteration
+print()
+print(t<t2) #comparision
+print(max(t2)) #maximum
+print(min(t)) #minimum
+print(tuple("Hello")) #conversion
